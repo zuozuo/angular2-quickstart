@@ -1,0 +1,27 @@
+li {
+	padding: 10px;
+	border: 1px solid #ddd;
+	margin-bottom: 5px;
+	cursor: pointer;
+	border-radius: 4px;
+	width: 600px;
+}
+li > span {
+	font-size: 16px;	 
+}
+li:hover {
+	background: #ddd;	 
+}
+.pull-left {
+	float: left;
+}
+.clearfix {
+	clear: both;	 
+}
+input[type='checkbox'] {
+	margin-top: 5px;
+	margin-right: 10px;
+}
+.deleted {
+	text-decoration: line-through;	 
+}

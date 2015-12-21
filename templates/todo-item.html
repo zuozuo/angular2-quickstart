@@ -1,0 +1,7 @@
+<li>
+	<input type='checkbox' class='pull-left' (click)='markAsDone(todo)'>
+	<span class='pull-left' [ngClass]="{deleted: todo.isDone}" >
+		{{todo.title}}
+	</span>
+	<div class='clearfix'></div>
+</li>

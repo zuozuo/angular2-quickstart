@@ -1,0 +1,8 @@
+<form (submit)="createTodo($event, title.value)">
+	<input #title type='text' class='new-todo' autofocus placeholder='Add New Todo Here ...' />
+</form>
+<ul>
+	<div *ngFor='#todo of todos.todos'>
+		<todo-item [todo]='todo'></todo-item>
+	</div>
+</ul>
